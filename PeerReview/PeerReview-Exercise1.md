@@ -47,25 +47,25 @@ The following are the criteria by which you should assess your peer's solution o
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+The Captain can move right with the same speed as moving left. And the Captain is facing the correct direction during both left and right movement.
 
 ### Stage 2 ###
 
-- [ ] Perfect
+- [x] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+The three working patterns are working as required. The instance can be produced in the required time range. The item produced on the side of the pirate as the code comment says. If the item produced is not mandatory, all requirements for stage 2 are met.
 
 ### Stage 3 ###
 
@@ -76,18 +76,18 @@ Write Justification here.
 - [ ] Unsatisfactory
 
 #### justification ##### 
-Write justification here.
+The Motivate function randomly picks a working speed from slow, normal and assigns it to the pirate. A major flaw is the random range is set from 1 to 3. And the switch case is 1,2,3. In that case the case 3 is not in the range, so the Motivate function can't choose the fast working speed.
 
 ### Stage 4 ###
 
 - [ ] Perfect
-- [ ] Great
+- [x] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### justification ##### 
-Write justification here.
+As code says, the student implements an infinitely jump for the captain. The function works well in the first scene, the mushroom forest, where the captain can jump infinitely. But there is a minor flaw for the second and third scene, the captain will hit the ceiling of the map. The implementation is good, if it can detect the ceiling of the map then transport into the other map, that will be better.
 
 ## Code Style ##
 
