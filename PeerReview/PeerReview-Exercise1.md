@@ -20,8 +20,8 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* [Hauser Zhou] 
+* *email:* [zhzzhou@ucdavis.edu]
 
 ### Description ###
 
@@ -76,7 +76,7 @@ The three working patterns are working as required. The instance can be produced
 - [ ] Unsatisfactory
 
 #### justification ##### 
-The Motivate function randomly picks a working speed from slow, normal and assigns it to the pirate. A major flaw is the random range is set from 1 to 3. And the switch case is 1,2,3. In that case the case 3 is not in the range, so the Motivate function can't choose the fast working speed.
+The Motivate function randomly picks a working speed from slow, normal and assigns it to the pirate. A major flaw is the [random range is set from 1 to 3](https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/PirateController.cs#L33). And the switch case is 1,2,3. In that case the case 3 is not in the range, so the Motivate function can't choose the fast working speed.
 
 ### Stage 4 ###
 
