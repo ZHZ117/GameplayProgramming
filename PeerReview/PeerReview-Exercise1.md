@@ -133,11 +133,11 @@ Basically, the code fits the code style perfectly, much better than the work I d
 
 #### Best Practices Exemplars ####
 
-The field rigidBody uses camelCase, which conforms to the naming convention for non-static private fields.
-https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/MoveCharacterUp.cs#L23
+The field rigidBody uses camelCase, which conforms to the naming convention for non-static private fields.[Code](
+https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/MoveCharacterUp.cs#L23)
 
-The use of Swtich and the lines of code are very clean and easy to read. And the brackets get their own line as it is a C# convention.
-https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/PirateController.cs#L33C9-L44C10
+The use of Swtich and the lines of code are very clean and easy to read. And the brackets get their own line as it is a C# convention.[Code](
+https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/PirateController.cs#L33C9-L44C10)
 
-The comments explain the code well.
-https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/FastWorkerPirateCommand.cs#L14C9-L23C58
+The comments explain the code well.[Code](
+https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/FastWorkerPirateCommand.cs#L14C9-L23C58)
