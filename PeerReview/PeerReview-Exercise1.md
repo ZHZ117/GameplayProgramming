@@ -139,5 +139,4 @@ https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3
 The use of Swtich and the lines of code are very clean and easy to read. And the brackets get their own line as it is a C# convention.[Code](
 https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/PirateController.cs#L33C9-L44C10)
 
-The comments explain the code well.[Code](
-https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/FastWorkerPirateCommand.cs#L14C9-L23C58)
+The comments explain the code well.[Code](https://github.com/ensemble-ai/exercise-1-command-pattern-SerpentSnek/blob/286c3a462164cb8f87b52438ef9a135aa170ceb2/Captain/Assets/Scripts/FastWorkerPirateCommand.cs#L14C9-L23C58)
