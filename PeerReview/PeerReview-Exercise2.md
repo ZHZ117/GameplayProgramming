@@ -52,7 +52,7 @@ ___
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -60,12 +60,12 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+The code works perfectly in any direction and speed. And the 5*5 cross is perfectly drawn on the screen. The drawing code is very concise, which is way better than what I did( 9 positions change).
 
 ___
 ### Stage 2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -73,12 +73,13 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+The code prefect drew the box and constrained the target to move in the box, the auto scroll part is also perfect. 
+Just one little thing I want to share with you is that I think the target should move at the same speed of the auto scroll camera when the target is idle. Because I saw it in the discussion, and I think it is reasonable since it is just how 2D games simulate the jet fly moving. If I'm the player I may not want the camera to chase me when the target is idle which doesn’t mean the jet is static in the air.
+But this is just a friendly suggestion, you did a very great job for the stage2 requirement.
 
-___
 ### Stage 3 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -86,12 +87,11 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
-
+The third part three is also perfect, the camera does follow the target very smoothly. And I saw you used the MovementControllerLib.KeepLeash() which is great to bulid a class to help you move the camera. And all the requirements are fulfilled.
 ___
 ### Stage 4 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -99,12 +99,12 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+The code works perfectly, and the code uses a function to avoid the large chunk of code. The requirement is all fulfilled.
 
 ___
 ### Stage 5 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -112,7 +112,7 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+The code did implement a four way speed up push zone camera, the push zone has a correct speed with push ratio. For stage four the code is still well commented and concise, and all requirements are perfectly met.
 ___
 # Code Style #
 
@@ -130,6 +130,10 @@ Please refer to the first code review template on how to do a permalink.
 
 
 #### Style Guide Infractions ####
+Overall, the student follow the style guide , just one litte flaw.
+The constant should use 'PascalCase', so it should be Precision.
+https://github.com/ensemble-ai/exercise-2-camera-controllers-xydxydxyd1/blob/fb6191870f2f800fe42ee3cfbc964ec5656dc9ce/Obscura/Assets/Scripts/TargetFocusCameraController.cs#L38
+
 
 #### Style Guide Exemplars ####
 
@@ -150,5 +154,16 @@ If the student has breached the best practices and has done something that shoul
 This should be similar to the Code Style justification.
 
 #### Best Practices Infractions ####
+Use the fuction to aovid fuction over 100 line of code, and it is clear and consice.
+https://github.com/ensemble-ai/exercise-2-camera-controllers-xydxydxyd1/blob/fb6191870f2f800fe42ee3cfbc964ec5656dc9ce/Obscura/Assets/Scripts/TargetFocusCameraController.cs#L64C21-L64C38
+https://github.com/ensemble-ai/exercise-2-camera-controllers-xydxydxyd1/blob/fb6191870f2f800fe42ee3cfbc964ec5656dc9ce/Obscura/Assets/Scripts/TargetFocusCameraController.cs#L71
+
+Avoid the extreme length of a line of code, which I think is the most eye watering thing.
+https://github.com/ensemble-ai/exercise-2-camera-controllers-xydxydxyd1/blob/fb6191870f2f800fe42ee3cfbc964ec5656dc9ce/Obscura/Assets/Scripts/FourWaySpeedupPushZoneCameraController.cs#L67
+
+The short and clear comment for the code, and the code is pretty organized in the format.
+https://github.com/ensemble-ai/exercise-2-camera-controllers-xydxydxyd1/blob/fb6191870f2f800fe42ee3cfbc964ec5656dc9ce/Obscura/Assets/Scripts/FrameAutoScrollCameraController.cs#L54C73-L54C79
+
+
 
 #### Best Practices Exemplars ####
