@@ -51,7 +51,7 @@ ___
 ## Solution Assessment ##
 ### Stage 1.1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -59,12 +59,11 @@ ___
 
 ___
 #### Justification ##### 
-Write justification here.
-
+The watcher is correctly set, and all pikminis groups can change their color.
 ___
 ### Stage 1.2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -72,12 +71,12 @@ ___
 
 ___
 #### Justification ##### 
-Write justification here.
+The stage1.2 is well implemented， the watcher checks the color every 1 sec.
 
 ___
 ### Stage 2.1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -85,12 +84,12 @@ ___
 
 ___
 #### Justification ##### 
-Write justification here.
+Correctly implement Subscribe, Unsubscribe, and Notify methods in Publisher.cs.
 
 ___
 ### Stage 2.2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -98,12 +97,12 @@ ___
 
 ___
 #### Justification ##### 
-Write justification here.
+Implement the Pbulisher class correctly. 
 
 ___
 ### Stage 2.3 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -111,20 +110,20 @@ ___
 
 ___
 #### Justification ##### 
-Write justification here.
+The Pikminis can correctly receive the message and change the Subscriber to go to a different place.
 
 ___
 ### Stage 3 ###
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [X] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write justification here.
+The code is correct, and the implementation is perfect. There is just a minor mistake that caused the problem. The script is not added to the Spawn component. So I can't click fire 2 to generate the Pikminis. But the code is correct since I add it to the Spawn, the generation works fine.
 
 ___
 # Code Style #
@@ -144,8 +143,6 @@ Please refer to the first code review template on how to do a permalink.
 
 #### Style Guide Infractions ####
 
-#### Style Guide Exemplars ####
-
 ___
 
 # Best Practices #
@@ -159,6 +156,10 @@ If the student has breached the best practices and has done something that shoul
 
 This should be similar to the Code Style justification.
 
-#### Best Practices Infractions ####
 
 #### Best Practices Exemplars ####
+The code successfully follows the code style guidelines. There are comment to express the code.
+https://github.com/ensemble-ai/exercise-3-observer-pattern-JasonBMa/blob/e1a496faefc59561f4c1158a8fffb52463ab1b5e/Pikmini/Assets/Scripts/PikminiSpawner.cs#L7
+And the code unsubscirbe the dying Pikminis, I think it is good way to aovid the bug or other issues when destory Pikminis.
+https://github.com/ensemble-ai/exercise-3-observer-pattern-JasonBMa/blob/e1a496faefc59561f4c1158a8fffb52463ab1b5e/Pikmini/Assets/Scripts/MiniController.cs#L93
+Overall the code was very clean and tidy and every step was completed as required. Great job!
