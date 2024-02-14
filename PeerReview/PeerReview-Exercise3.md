@@ -161,6 +161,7 @@ This should be similar to the Code Style justification.
 The code successfully follows the code style guidelines. There are comment to express the code.
 
 https://github.com/ensemble-ai/exercise-3-observer-pattern-JasonBMa/blob/e1a496faefc59561f4c1158a8fffb52463ab1b5e/Pikmini/Assets/Scripts/PikminiSpawner.cs#L7
+
 And the code unsubscirbe the dying Pikminis, I think it is good way to aovid the bug or other issues when destory Pikminis.
 
 https://github.com/ensemble-ai/exercise-3-observer-pattern-JasonBMa/blob/e1a496faefc59561f4c1158a8fffb52463ab1b5e/Pikmini/Assets/Scripts/MiniController.cs#L93
