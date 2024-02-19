@@ -21,8 +21,8 @@ If you are in a rare situation where two peer-reviewers are on a single reposito
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* [Hauser] 
+* *email:* [zhzzhou@ucdavis.edu]
 
 ### Description ###
 
@@ -55,17 +55,16 @@ ___
 - [ ] Perfect
 - [ ] Great
 - [ ] Good
-- [ ] Satisfactory
+- [X] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
-
+Looking at the code logic, the code should work well to implement blocking replies, the blocking will reply based on the RechargeRate after the set ReachargeDelay. However, due to a problem in the Laboratory scenario "The associated script can not be loaded." I was unable to do a normal run to test if the shield return was successful. When I add the ShieldFactory script to the scene, I can see that the shield slowly returns to its original size, but the healthbar doesn't react.
 ___
 ### Stage 2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -73,34 +72,34 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
+I apologize that I'm not very good at running your scene. Code-wise, this part of the functionality is well implemented, experimentally I didn't succeed in changing the type of shield, but by being in the initial shield and different projectiles does reflect the success of this part of your code.
 
 ___
 ### Stage 3 ###
 
 - [ ] Perfect
-- [ ] Great
+- [X] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
-Write Justification here.
+The code does a good job of implementing the requested functionality, but there are two more very minor bugs, the color of the shield doesn't change depending on the type, and the position of the projectile generation is a little bit off from where it was originally, and the second issue could be a problem when I was setting up your script, also whenever I manually fire the projectile a scrolling text with 0 damage appears before the real damage.
 
 ___
 ### Stage 4 ###
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [X] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justification ##### 
 Write Justification here.
-
+I'm sorry I didn't find a way to run this part either, but I'm looking at the code and I think your code meets most of the requirements. But your code for detecting whether a projectile has fired or not via a boolean value is slightly problematic because the projectile still has a recharge and flight time, so your code may cause the projectile to not spawn and fire properly. The code looks good on the random projectile generation as well as the number of randomizations.
 ___
 # Code Style #
 
@@ -118,22 +117,17 @@ Please refer to the first code review template on how to do a permalink.
 
 
 #### Style Guide Infractions ####
-
-#### Style Guide Exemplars ####
-
+Local variables should use camelCase. Count, Timer and some other local variables use PascalCase.
+https://github.com/ensemble-ai/exercise-4-factory-pattern-dt89eor/blob/3edd5f57369a520406d2a719aa3ee28162eaf7a8/Aegis/Assets/Scripts/TestFactory.cs#L27
+https://github.com/ensemble-ai/exercise-4-factory-pattern-dt89eor/blob/3edd5f57369a520406d2a719aa3ee28162eaf7a8/Aegis/Assets/Scripts/TestFactory.cs#L47
+https://github.com/ensemble-ai/exercise-4-factory-pattern-dt89eor/blob/3edd5f57369a520406d2a719aa3ee28162eaf7a8/Aegis/Assets/Scripts/ProjectileFactory.cs#L18-L19
+There maybe need more comment to explain the code, since this project is more open than others.
+https://github.com/ensemble-ai/exercise-4-factory-pattern-dt89eor/blob/3edd5f57369a520406d2a719aa3ee28162eaf7a8/Aegis/Assets/Scripts/ShieldFactory.cs#L6-L78
 ___
 
 # Best Practices #
 
 ### Description ###
-
-If the student has followed best practices (Unity coding conventions from the StyleGuides document) then feel free to point at these code segments as examplars. 
-
-If the student has breached the best practices and has done something that should be noted, please add the infraction.
-
-
-This should be similar to the Code Style justification.
-
-#### Best Practices Infractions ####
-
-#### Best Practices Exemplars ####
+Overall the code is in line with code style requirements, the code is also clearly written, some of the code may need more comments to introduce, overall very well written.
+the comment is very good explain the key step of the code. And I like the use of 2D array to keep the damage table with clear comment.
+https://github.com/ensemble-ai/exercise-4-factory-pattern-dt89eor/blob/3edd5f57369a520406d2a719aa3ee28162eaf7a8/Aegis/Assets/Scripts/DamageEngine.cs#L11-L28
